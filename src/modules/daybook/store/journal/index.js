@@ -7,7 +7,7 @@ import * as getters from './getter'
 import * as mutations from './mutations'
 
 const journalModule = {
-    namedSpaced:true,
+    namespaced:true,
     actions,
     getters,
     mutations,
